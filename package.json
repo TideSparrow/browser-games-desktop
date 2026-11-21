@@ -1,0 +1,23 @@
+{
+  "name": "browser-games-desktop",
+  "productName": "Browser Game Hub",
+  "version": "0.1.0",
+  "description": "Desktop client for Browser Game Hub.",
+  "homepage": "https://browsergamehub.net/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yxlku/browser-games-desktop.git"
+  },
+  "author": "Browser Game Hub",
+  "license": "MIT",
+  "scripts": {
+    "start": "tauri dev",
+    "build": "tauri build"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.12.6"
+  }
+}

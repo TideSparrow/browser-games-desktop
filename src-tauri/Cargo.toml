@@ -1,0 +1,17 @@
+[package]
+name = "browser-games-desktop"
+version = "0.1.0"
+description = "Desktop client for Browser Game Hub"
+license = "MIT"
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "=2.7.6", features = [] }
+
+[dependencies]
+tauri = { version = "=2.12.7", features = [] }
+
+[profile.release]
+opt-level = "s"
+lto = "thin"
+strip = true
