@@ -4,7 +4,7 @@ An open-source desktop app for browsing the free browser games catalog at [Brows
 
 ## Download
 
-Choose your platform on [GitHub Releases](https://github.com/yxlku/browser-games-desktop/releases/latest).
+Choose your platform on [GitHub Releases](https://github.com/TideSparrow/browser-games-desktop/releases/latest).
 
 | Platform | Download | Open |
 | --- | --- | --- |

@@ -6,7 +6,7 @@
   "homepage": "https://browsergamehub.net/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yxlku/browser-games-desktop.git"
+    "url": "git+https://github.com/TideSparrow/browser-games-desktop.git"
   },
   "author": "Browser Game Hub",
   "license": "MIT",
