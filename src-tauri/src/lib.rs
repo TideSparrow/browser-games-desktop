@@ -46,6 +46,12 @@ pub fn run() {
                 })
                 .on_new_window(|_, _| NewWindowResponse::Deny);
 
+            #[cfg(target_os = "macos")]
+            let window = window
+                .theme(Some(tauri::Theme::Dark))
+                .title_bar_style(tauri::TitleBarStyle::Transparent)
+                .background_color(tauri::window::Color(18, 18, 23, 255));
+
             // These WebViews may apply navigation policy to iframes. Keep the main
             // page on Browser Game Hub while allowing its game hosts in iframes.
             #[cfg(any(target_os = "macos", target_os = "android"))]
