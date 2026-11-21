@@ -30,4 +30,4 @@ For Android, install the [Android Tauri prerequisites](https://v2.tauri.app/star
 
 ## License
 
-The desktop code is available under the [MIT License](LICENSE). The Browser Game Hub name and icon remain the property of their owner. Website content and games are served online and remain subject to their respective terms and licenses.
+The app source code is available under the [MIT License](LICENSE). The Browser Game Hub name and icon remain the property of their owner. Website content and games are served online and remain subject to their respective terms and licenses.
