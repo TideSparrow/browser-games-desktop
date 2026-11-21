@@ -1,9 +1,13 @@
 [package]
 name = "browser-games-desktop"
-version = "0.1.1"
+version = "0.1.2"
 description = "Desktop client for Browser Game Hub"
 license = "MIT"
 edition = "2021"
+
+[lib]
+name = "browser_games_desktop_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]
 tauri-build = { version = "=2.7.6", features = [] }

@@ -81,4 +81,4 @@ jobs:
           test -s dist/Browser-Game-Hub-windows-x64-setup.exe
           test -s dist/Browser-Game-Hub-macos-arm64.zip
           test -s dist/Browser-Game-Hub-macos-x64.zip
-          gh release create "$GITHUB_REF_NAME" dist/* --verify-tag --title "Browser Game Hub Desktop $GITHUB_REF_NAME" --generate-notes
+          gh release create "$GITHUB_REF_NAME" dist/* --verify-tag --title "Browser Game Hub $GITHUB_REF_NAME" --generate-notes
