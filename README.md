@@ -12,6 +12,12 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?logo=buymeacoffee&logoColor=111111)][coffee]
 
+## Screenshots
+
+| Desktop (macOS) | Android |
+| --- | --- |
+| <img src="docs/screenshots/desktop-macos.png" width="620" alt="Browser Game Hub homepage in the macOS desktop app"> | <img src="docs/screenshots/android.png" width="232" alt="Browser Game Hub homepage in the Android app"> |
+
 ## About the app
 
 Open Browser Game Hub to browse the live catalog of racing, puzzle, sports, and arcade games in a dedicated window. The app uses Tauri and your system WebView to keep downloads small. The catalog updates with the website and requires an internet connection.

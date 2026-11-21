@@ -12,6 +12,12 @@
 [![MIT 许可证](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 [![请我们喝杯咖啡](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?logo=buymeacoffee&logoColor=111111)][coffee]
 
+## 运行截图
+
+| 桌面版（macOS） | Android 版 |
+| --- | --- |
+| <img src="docs/screenshots/desktop-macos.png" width="620" alt="Browser Game Hub macOS 客户端首页"> | <img src="docs/screenshots/android.png" width="232" alt="Browser Game Hub Android 客户端首页"> |
+
 ## 项目介绍
 
 打开应用即可浏览官网上的赛车、益智、体育和街机游戏。客户端基于 Tauri，使用系统 WebView，安装包体积小。游戏库随官网更新，使用时需要联网。
